@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "Lazy loaded modules with aot and angular 2",
   "scripts": {
-    "start": "webpack-dev-server --inline --progress --port 9000",
-    "test": "karma start",
-    "build": "rimraf dist && webpack --config config/webpack.prod.js --progress --profile --bail"
+    "start": "webpack-dev-server --inline --progress --port 9000"
   },
   "author": "SkillMapped <help@skillmapped.com>",
   "license": "MIT",
